@@ -1,16 +1,17 @@
 from fastapi import FastAPI
 from pydantic import BaseModel
-# from app.model.model import collaborative_filtering 
-# from app.model.model import content_based_filtering
-# from app.model.model import __version__ as model_version
+# from model.model import hybrid_based_recommendation_bayesian_approach, hybrid_based_recommendation_warp_approach
+# from model.model import content_based_filtering
+# from model.model import collaborative_filtering 
+# from model.model import __version__ as model_version
+# from random import randint
 
 from app.model.model import hybrid_based_recommendation_bayesian_approach, hybrid_based_recommendation_warp_approach
 from random import randint
-from app.model.model import collaborative_filtering 
-from app.model.model import content_based_filtering
+from app.model.model import content_based_filtering, collaborative_filtering 
 from app.model.model import __version__ as model_version
 
-import uvicorn
+#import uvicorn
 #import traceback
 
 
