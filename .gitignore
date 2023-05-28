@@ -1,2 +1,3 @@
 venv
 .DB_Store
+*.pkl
